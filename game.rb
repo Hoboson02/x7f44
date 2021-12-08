@@ -14,7 +14,8 @@ class Game
     box.shut? || box.can_flip_for?(dice.map(&:value).reduce(:+))
   end
 
-  def start!
+  def start
+    play
     prepare_next_round
   end
 

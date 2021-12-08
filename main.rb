@@ -10,7 +10,7 @@ box = Box.new(NUM_TILES)
 game = Game.new(box, dice)
 
 puts Game::WELCOME_MESSAGE
-game.start!
+game.start
 game.play until game.over?
 
 puts game.results
