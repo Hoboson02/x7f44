@@ -1,6 +1,6 @@
 require_relative 'game'
 require_relative 'box'
-require_relative 'die'
+require_relative 'dice'
 NUM_TILES = 9
 NUM_DICE = 2
 NUM_SIDES = 6
