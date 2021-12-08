@@ -9,7 +9,7 @@ class Die
 
   def initialize(args)
     @number_of_sides = args[:number_of_sides] || NUM_SIDES
-    @rolled_value = args[:rolled_value] || INITIAL VALUE
+    @rolled_value = args[:rolled_value] || INITIAL_VALUE
     @chosen_number_of_sides = args [:chosen_number_of_sides] || Random.new
   end
 

@@ -5,7 +5,7 @@ NUM_TILES = 9
 NUM_DICE = 2
 NUM_SIDES = 6
 
-dice = (1..NUM_DICE).map { |i| Die.new(NUM_SIDES) }
+dice = Dice.new
 box = Box.new(NUM_TILES)
 game = Game.new(box, dice)
 
